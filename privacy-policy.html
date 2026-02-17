@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Privacy Policy - AI Transcriptor</title>
+	<style>
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+			line-height: 1.6;
+			max-width: 720px;
+			margin: 0 auto;
+			padding: 2rem 1.5rem;
+			color: #1a1a1a;
+		}
+		h1 {
+			font-size: 1.75rem;
+			margin-bottom: 0.5rem;
+		}
+		.last-updated {
+			color: #666;
+			font-size: 0.9rem;
+			margin-bottom: 2rem;
+		}
+		h2 {
+			font-size: 1.15rem;
+			margin-top: 1.75rem;
+			margin-bottom: 0.5rem;
+		}
+		p, li {
+			margin-bottom: 0.75rem;
+		}
+		ul {
+			padding-left: 1.5rem;
+		}
+		a {
+			color: #0066cc;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<h1>Privacy Policy - AI Transcriptor</h1>
+	<p class="last-updated">Last updated: February 17, 2025</p>
+
+	<p>
+		This Privacy Policy describes how the <strong>AI Transcriptor</strong> Chrome extension ("the Extension") collects, uses, and handles your information. Please read it carefully.
+	</p>
+
+	<h2>1. Overview</h2>
+	<p>
+		AI Transcriptor transcribes audio from browser tabs to text using AI. It captures audio, processes it (locally or via third-party APIs), and displays transcriptions. This policy explains what data is involved and how it is used.
+	</p>
+
+	<h2>2. Information We Collect and Use</h2>
+	<p>The Extension may collect or process the following:</p>
+	<ul>
+		<li><strong>Audio</strong> – Captured from the active browser tab when you start transcription. Used solely for transcription.</li>
+		<li><strong>Transcription text</strong> – The resulting text is displayed to you and may be sent to AI services (OpenAI, Google Gemini) when you use features like summarization, quiz generation, or the chatbot.</li>
+		<li><strong>API keys</strong> – If you provide your own OpenAI API key, it is stored locally in your browser (Chrome storage) and is never transmitted to our servers.</li>
+		<li><strong>Preferences</strong> – Language settings, theme, and other options are stored locally in your browser.</li>
+	</ul>
+
+	<h2>3. Third-Party Services</h2>
+	<p>The Extension uses these services to provide its functionality:</p>
+	<ul>
+		<li><strong>OpenAI</strong> – For audio transcription (Whisper API) and for summarization, quiz generation, and chatbot features. Audio and/or text you transcribe may be sent to OpenAI when these features are used. See <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI's Privacy Policy</a>.</li>
+		<li><strong>Google Gemini</strong> – Alternative AI service for the chatbot feature. Text may be sent to Google when you use this feature. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+		<li><strong>Hugging Face / ONNX</strong> – When using local transcription, model files may be downloaded from Hugging Face. Audio is processed on your device and is not sent to Hugging Face.</li>
+	</ul>
+
+	<h2>4. Data Storage</h2>
+	<p>
+		Data is stored locally in your browser using Chrome's storage APIs and localStorage. Transcripts and preferences stay on your device. We do not operate servers that store your audio, transcripts, or API keys.
+	</p>
+
+	<h2>5. Data Sharing</h2>
+	<p>
+		We do not sell, rent, or trade your data. Data is only sent to third-party AI providers (OpenAI, Google) when you use features that require them (e.g., cloud transcription, summarization, chatbot). No analytics or advertising tracking is used.
+	</p>
+
+	<h2>6. Permissions</h2>
+	<p>The Extension requests these permissions for the following reasons:</p>
+	<ul>
+		<li><strong>activeTab, tabCapture</strong> – To capture audio from the active tab for transcription.</li>
+		<li><strong>storage, unlimitedStorage</strong> – To save preferences and transcript history locally.</li>
+		<li><strong>clipboardWrite</strong> – To copy transcribed text to your clipboard when you choose to copy.</li>
+		<li><strong>sidePanel, offscreen</strong> – To display the UI and process audio for transcription.</li>
+		<li><strong>scripting, host permissions</strong> – To work with web pages when capturing audio.</li>
+	</ul>
+
+	<h2>7. Your Choices</h2>
+	<ul>
+		<li>You can remove your API key at any time in the Extension settings.</li>
+		<li>You can uninstall the Extension to stop all data collection and processing.</li>
+		<li>When using local transcription (ONNX), audio is processed entirely on your device and is not sent to external services.</li>
+	</ul>
+
+	<h2>8. Children's Privacy</h2>
+	<p>
+		The Extension is not directed at children under 13. We do not knowingly collect personal information from children.
+	</p>
+
+	<h2>9. Changes to This Policy</h2>
+	<p>
+		We may update this Privacy Policy from time to time. We will post the updated policy here and update the "Last updated" date. Continued use of the Extension after changes means you accept the updated policy.
+	</p>
+
+	<h2>10. Contact</h2>
+	<p>
+		If you have questions about this Privacy Policy or the Extension, please contact us at: <strong>[Your contact email here]</strong>
+	</p>
+</body>
+</html>
